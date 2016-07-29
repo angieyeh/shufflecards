@@ -1,0 +1,23 @@
+{
+  "name": "shufflin",
+  "version": "1.0.0",
+  "description": "Given a deck of n cards and cut at c cards, how many shuffles does it take to return the cards to its original position",
+  "main": "shufflin.js",
+  "scripts": {
+    "test": "node ./lib/test/test.js | colortape",
+    "build": "babel src -d lib"
+  },
+  "author": "Angie Yeh",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0",
+    "colortape": "^0.1.1",
+    "tape": "^4.5.1"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  }
+}
